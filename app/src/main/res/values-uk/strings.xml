@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Поводирчик</string>
+    <string name="menu_play">Зіграймо</string>
+    <string name="about">Детальніше про…</string>
+    <string name="menu_exit">Вихід</string>
+    <string name="button_next">Далі</string>
+    <string name="text_magic_word">Чарівне слово</string>
+    <string name="description_photo_of_point">Фотографія точки</string>
+    <string name="Congratulations">Вау, вау, вау. Вітаю вас усіх, ви дуже близькі до завершення квесту. Щоб завершити повністю квест, вам потрібно добігти до Богородиці і зробити спільне селфі. Всім удачі!</string>
+    <string name="good_guys">Ми молодці</string>
+    <string name="developers">Розробників</string>
+    <string name="application">Програму</string>
+
+</resources>

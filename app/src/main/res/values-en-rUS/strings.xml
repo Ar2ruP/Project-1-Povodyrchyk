@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Povodyrchyk</string>
+    <string name="menu_play">Play</string>
+    <string name="about">About</string>
+    <string name="menu_exit">Exit</string>
+    <string name="button_next">Next</string>
+    <string name="text_magic_word">Magic word</string>
+    <string name="description_photo_of_point">Picture of place</string>
+    <string name="Congratulations">Wow, wow, wow. Congratulations for all your team, you are very close to the end of quest. Your finish point is near Saint Meri, you should make a selfie here. Good luck everybody</string>
+    <string name="good_guys">We are so good</string>
+    <string name="developers">Developers</string>
+    <string name="application">Application</string>
+</resources>

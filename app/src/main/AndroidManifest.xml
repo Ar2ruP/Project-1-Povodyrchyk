@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="osbm.animatory.povodyrchyk">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_povodyrchyk"
+        android:label="Поводирчик"
+        android:roundIcon="@mipmap/ic_povodyrchyk"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Povodyrchyk">
+        <activity android:name=".MainMenu"></activity>
+        <activity android:name=".Pogonya_Quest_BellTower" />
+        <activity android:name=".PovodyrchykAbout" />
+        <activity android:name=".Pogonya_Quest_Mari_End" />
+        <activity android:name=".Pogonya_Quest_ThreeStations" />
+        <activity android:name=".Pogonya_Quest_HillStation" />
+        <activity android:name=".Pogonya_Quest_Store" />
+        <activity android:name=".Pogonya_Quest_RefectoryChurch" />
+        <activity android:name=".Pogonya_Quest_Saints" />
+        <activity android:name=".Pogonya_Quest_Cemeteru" />
+        <activity android:name=".Pogonya_Quest_BusStation" />
+        <activity android:name=".Pogonya_Quest_Church" />
+        <activity android:name=".Pogonya_Quest_Mari_Start" />
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
