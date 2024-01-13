@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Povodyrchyk</string>
+    <string name="button_play">Play</string>
+    <string name="button_about">About</string>
+    <string name="button_exit">Exit</string>
+    <string name="pohonya">Pohonya</string>
+    <string name="well_of_saint_spirit">Well of Saint Spirit</string>
+    <string name="boronyava">Boronyava</string>
+    <string name="krylos">Krylos</string>
+    <string name="vaif">Vasyliianski Animatory IF</string>
+    <string name="text_magic_word">Magic word</string>
+    <string name="button_next">Next</string>
+    <string name="good_guys">We are so good</string>
+    <string name="Congratulations">Wow, wow, wow. Congratulations for all your team, you are very close to the end of quest. Your finish point is where you started, you should make a selfie there. Good luck everybody
+    </string>
+    <string name="about_anima">Together, we organize camps called \"Fun Holidays with God\" and various other camps. We
+        participate in organizing walking pilgrimages and celebrations at the parish. We discover new acting talents by
+        participating in plays. We develop comprehensively through clubs and other activities, which we have the
+        opportunity to conduct to glorify God. Of course, we also enrich ourselves spiritually together with our
+        spiritual guide, Father Mykita Ovchar, OSBM. \"Animators are one soul and one heart. Always remember, for Whom
+        it beats!\"
+    </string>
+    <string name="about_povodyrchyk">The "Povodyrchyk" program was developed in 2021. The following individuals
+        contributed to its development:
+        - Artur Pashnyk (Full-Stack Developer, Photographer)
+        - Viktor Klanitsa (Tester)
+        - Dmytro Seniv (Tester)
+        - Diana Semkovych (Photographer)
+        - Oksana Pavliuk (Photographer)
+        All rights to the "Povodyrchyk" program and images within the program belong to the "Василіянські Аніматори ІФ" community.
+        Idea authors: Fr. Ambrose (Volodymyr) Kozak, OSBM and Artur Pashnyk.
+
+        Povodyrchyk 2021-2024
+    </string>
+</resources>

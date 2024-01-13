@@ -1,35 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="osbm.animatory.povodyrchyk">
+          xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_povodyrchyk"
-        android:label="Поводирчик"
-        android:roundIcon="@mipmap/ic_povodyrchyk"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.Povodyrchyk">
-        <activity android:name=".MainMenu"></activity>
-        <activity android:name=".Pogonya_Quest_BellTower" />
-        <activity android:name=".PovodyrchykAbout" />
-        <activity android:name=".Pogonya_Quest_Mari_End" />
-        <activity android:name=".Pogonya_Quest_ThreeStations" />
-        <activity android:name=".Pogonya_Quest_HillStation" />
-        <activity android:name=".Pogonya_Quest_Store" />
-        <activity android:name=".Pogonya_Quest_RefectoryChurch" />
-        <activity android:name=".Pogonya_Quest_Saints" />
-        <activity android:name=".Pogonya_Quest_Cemeteru" />
-        <activity android:name=".Pogonya_Quest_BusStation" />
-        <activity android:name=".Pogonya_Quest_Church" />
-        <activity android:name=".Pogonya_Quest_Mari_Start" />
+            android:allowBackup="true"
+            android:dataExtractionRules="@xml/data_extraction_rules"
+            android:fullBackupContent="@xml/backup_rules"
+            android:icon="@drawable/ic_povodyrchyk1"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.Povodyrchyk"
+            tools:targetApi="31">
         <activity
-            android:name=".SplashScreen"
-            android:screenOrientation="portrait">
+                android:name=".About.AboutPovodyrchykActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".About.VAIFActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".DukhovaKrynytsia.WellSpiritCongratulationsActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".Boronyavo.BoronyavoCongratulationsActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".Krylos.KrylosQuestActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".Pohonya.PohonyaQuestActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".Pohonya.PohonyaCongratulationsActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".MainMenuActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".Boronyavo.BoronyavoQuestActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".AboutActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".MapsListActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".SplashScreenActivity"
+                android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
     </application>

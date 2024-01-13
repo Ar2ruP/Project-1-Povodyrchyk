@@ -1,15 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Поводирчик</string>
-    <string name="menu_play">Зіграймо</string>
-    <string name="about">Детальніше про…</string>
-    <string name="menu_exit">Вихід</string>
-    <string name="button_next">Далі</string>
+    <string name="button_play">Зіграймо</string>
+    <string name="button_about">Про...</string>
+    <string name="button_exit">Вихід</string>
+    <string name="pohonya">Погоня</string>
+    <string name="well_of_saint_spirit">Духова криниця</string>
+    <string name="krylos">Крилос</string>
+    <string name="boronyava">Боронява</string>
+    <string name="vaif">Василіянські Аніматори ІФ</string>
     <string name="text_magic_word">Чарівне слово</string>
-    <string name="description_photo_of_point">Фотографія точки</string>
-    <string name="Congratulations">Вау, вау, вау. Вітаю вас усіх, ви дуже близькі до завершення квесту. Щоб завершити повністю квест, вам потрібно добігти до Богородиці і зробити спільне селфі. Всім удачі!</string>
+    <string name="button_next">Далі</string>
     <string name="good_guys">Ми молодці</string>
-    <string name="developers">Розробників</string>
-    <string name="application">Програму</string>
+    <string name="Congratulations">Вау, вау, вау. Вітаю вас усіх, ви дуже близькі до завершення квесту. Щоб завершити повністю квест, вам потрібно добігти до фінішної точки і зробити спільне селфі. Всім удачі!
+    </string>
+    <string name="about_anima">Спільнотово ми проводимо табори «Веселі канікули з Богом», різні інші табори; беремо участь в організаціях піших прощ та святкувань на парафії; відкриваємо у собі нові акторські таланти, граючи у виставах; розвиваємось всебічно у бансах, гуртках та інших цікавинках, які маємо можливість проводити на прославу Бога, а також, звісно ж, збагачуємось духовно спільно з нашим духовним провідником о. Микитою Овчаром, ЧСВВ. Наша спільнота – це любляча сім’я для кожного з нас. І кожен з нас є невід’ємним пазлом, з якої складається велика картинка. <br/> У 2011 році о. Іван Логай, ЧСВВ при монастирі Храму Царя Христа створив спільноту аніматорів!
 
+        «Аніматори – це одна душа і серце. Пам’ятай завжди, для Кого воно б’ється!»
+    </string>
+    <string name="about_povodyrchyk">Програма Поводирчик була розробленою у 2021 році. У її розробці взяли участь:<br/>
+        ·Артур Пашник (Full-Stack Developer, Photographer)<br/>
+        ·Віктор Кланіца (Tester)<br/>
+        ·Дмитро Сенів (Tester)<br/>
+        ·Діана Семкович (Photographer)<br/>
+        ·Оксана Павлюк (Photographer)<br/>
+        Усі права на програму та зображення у програмі Поводирчик належать спільноті Василіянські Аніматори ІФ.<br/>
+        Автори ідеї: о.Амвросій (Володимир) Козак ЧСВВ, Артур Пашник.<br/>
+
+        Поводирчик 2021-2024
+    </string>
 </resources>
