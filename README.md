@@ -1,11 +1,11 @@
 # Project №1 Povodyrchyk
 Опис:.
-Поводирчик- програма створена для Василіянських Аніматорів ІФ від Ar2ruP.
+Поводирчик- is an Android application for Василіянські Аніматори ІФ by Ar2ruP.
 ___
-Опис:
+Description:
 
-Платформи: Android 
+Platforms: Android 
 
-Дата створення: 2021
+Date of dev: 2021
 
-Мови: Українська, English
+Languages: Українська, English
