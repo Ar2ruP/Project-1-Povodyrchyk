@@ -12,7 +12,18 @@ class KrylosQuestActivity : AppCompatActivity() {
     private lateinit var buttonShowK: Button
     private lateinit var magicWordK: EditText
     private val places =
-        arrayOf("Успіння", "Молитва", "Галич", "Богородиця", "Анна", "Йоаким", "Пресвята", "Діва", "Марія")
+        arrayOf(
+            "Успіння",
+            "Молитва",
+            "Галич",
+            "Богородиця",
+            "Анна",
+            "Йоаким",
+            "Пресвята",
+            "Діва",
+            "Марія",
+            "Церква"
+        )
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

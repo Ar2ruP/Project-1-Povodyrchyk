@@ -10,9 +10,11 @@ import osbm.vasyliianski_animatory.povodyrchyk.Pohonya.PohonyaCongratulationsAct
 import osbm.vasyliianski_animatory.povodyrchyk.R
 
 class BoronyavoQuestActivity : AppCompatActivity() {
-    private lateinit var buttonShow: Button
+    private lateinit var buttonShowBoronyavo: Button
     private lateinit var magicWord: EditText
-    private val places = arrayOf("Ісус", "Душа", "Мати", "Монастир", "Богородиця", "Хрест", "Церква", "Бог", "Пресвята")
+    private val places =
+        arrayOf("Ісус", "Душа", "Мати", "Монастир", "Богородиця", "Хрест", "Церква", "Бог", "Пресвята", "Хуст")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quest_boronyavo)
@@ -20,10 +22,10 @@ class BoronyavoQuestActivity : AppCompatActivity() {
     }
 
     private fun openNextPlace() {
-        buttonShow = findViewById(R.id.BoronyavoButtonNext)
+        buttonShowBoronyavo = findViewById(R.id.BoronyavoButtonNext)
         magicWord = findViewById(R.id.BoronyavoLine)
         val boronyavoImage = findViewById<ImageView>(R.id.BoronyavoPicture)
-        buttonShow.setOnClickListener {
+        buttonShowBoronyavo.setOnClickListener {
             when (magicWord.text.toString()) {
                 places[1] -> boronyavoImage.setImageResource(R.drawable.picture012_boronyava_stork)
                 places[2] -> boronyavoImage.setImageResource(R.drawable.picture013_boronyava_cemeteru)

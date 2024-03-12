@@ -26,7 +26,7 @@ class MapsListActivity : AppCompatActivity() {
         }
         buttonDukhovaKrynytsya = findViewById(id.btn_WellSpirit)
         buttonDukhovaKrynytsya.setOnClickListener {
-            openDukhovaKrynyrsya()
+            openDukhovaKrynytsya()
         }
         buttonKrylos = findViewById(id.btn_Krylos)
         buttonKrylos.setOnClickListener {
@@ -44,14 +44,14 @@ class MapsListActivity : AppCompatActivity() {
         startActivity(playBoronyava)
     }
 
-    private fun openDukhovaKrynyrsya() {
-        val playBoronyava = Intent(this, osbm.vasyliianski_animatory.povodyrchyk.DukhovaKrynytsia.WellSpiritQuestActivity::class.java)
-        startActivity(playBoronyava)
+    private fun openDukhovaKrynytsya() {
+        val playDukhovaKrynytsya = Intent(this, osbm.vasyliianski_animatory.povodyrchyk.DukhovaKrynytsia.WellSpiritQuestActivity::class.java)
+        startActivity(playDukhovaKrynytsya)
     }
 
     private fun openKrylos() {
-        val playBoronyava = Intent(this, osbm.vasyliianski_animatory.povodyrchyk.Krylos.KrylosQuestActivity::class.java)
-        startActivity(playBoronyava)
+        val playKrylos = Intent(this, osbm.vasyliianski_animatory.povodyrchyk.Krylos.KrylosQuestActivity::class.java)
+        startActivity(playKrylos)
     }
 
 }

@@ -21,10 +21,19 @@
                 android:name=".DukhovaKrynytsia.WellSpiritCongratulationsActivity"
                 android:exported="false"/>
         <activity
+                android:name=".DukhovaKrynytsia.WellSpiritQuestActivity"
+                android:exported="false"/>
+        <activity
                 android:name=".Boronyavo.BoronyavoCongratulationsActivity"
                 android:exported="false"/>
         <activity
+                android:name=".Boronyavo.BoronyavoQuestActivity"
+                android:exported="false"/>
+        <activity
                 android:name=".Krylos.KrylosQuestActivity"
+                android:exported="false"/>
+        <activity
+                android:name=".Krylos.KrylosCongratulationsActivity"
                 android:exported="false"/>
         <activity
                 android:name=".Pohonya.PohonyaQuestActivity"
@@ -35,9 +44,7 @@
         <activity
                 android:name=".MainMenuActivity"
                 android:exported="false"/>
-        <activity
-                android:name=".Boronyavo.BoronyavoQuestActivity"
-                android:exported="false"/>
+
         <activity
                 android:name=".AboutActivity"
                 android:exported="false"/>
