@@ -1,5 +1,5 @@
 # Project №1 Povodyrchyk
-Опис:.
+Опис:
 Поводирчик- is an Android application for Василіянські Аніматори ІФ by Ar2ruP.
 ___
 Description:
