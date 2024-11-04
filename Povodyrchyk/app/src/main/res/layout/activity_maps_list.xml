@@ -125,8 +125,60 @@
                             android:layout_gravity="center"
                             android:textSize="20sp"
                             android:text="@string/krylos"/>
-                >
                 </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                    <ImageButton
+                            android:id="@+id/btn_svmLukach"
+                            android:layout_width="155dp"
+                            android:layout_height="111dp"
+                            android:layout_gravity="center"
+                            android:backgroundTint="#F0AD28"
+                            android:contentDescription="@string/todo"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/picture039_starunia"
+                            tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck"/>
+                    <TextView
+                            android:id="@+id/svmLukach"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="@string/Starunia"
+                            android:textSize="20sp"/>
+                </LinearLayout>
+<!--                <LinearLayout-->
+<!--                        android:orientation="vertical"-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1">-->
+<!--                    <ImageButton-->
+<!--                            android:id="@+id/btn_Soon"-->
+<!--                            android:layout_width="155dp"-->
+<!--                            android:layout_height="111dp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:backgroundTint="#F0AD28"-->
+<!--                            android:contentDescription="@string/todo"-->
+<!--                            android:scaleType="fitCenter"-->
+<!--                            app:srcCompat="@drawable/picture011_boronyava_church"-->
+<!--                            tools:ignore="DuplicateSpeakableTextCheck,MissingConstraints,SpeakableTextPresentCheck"/>-->
+<!--                    <TextView-->
+<!--                            android:id="@+id/Boronyava"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:gravity="center_horizontal"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:text="@string/boronyava"/>-->
+<!--                </LinearLayout>-->
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

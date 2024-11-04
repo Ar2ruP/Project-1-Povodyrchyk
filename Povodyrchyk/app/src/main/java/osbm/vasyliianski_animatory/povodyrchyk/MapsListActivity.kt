@@ -2,6 +2,7 @@ package osbm.vasyliianski_animatory.povodyrchyk
 
 import androidx.appcompat.app.AppCompatActivity
 import android.content.Intent
+import android.media.Image
 import android.os.Bundle
 import android.widget.ImageButton
 import osbm.vasyliianski_animatory.povodyrchyk.R.id
@@ -12,6 +13,7 @@ class MapsListActivity : AppCompatActivity() {
     private lateinit var buttonBoronyava: ImageButton
     private lateinit var buttonDukhovaKrynytsya: ImageButton
     private lateinit var buttonKrylos: ImageButton
+    private lateinit var buttonStarunia: ImageButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,6 +33,10 @@ class MapsListActivity : AppCompatActivity() {
         buttonKrylos = findViewById(id.btn_Krylos)
         buttonKrylos.setOnClickListener {
             openKrylos()
+        }
+        buttonStarunia=findViewById(id.btn_svmLukach)
+        buttonStarunia.setOnClickListener {
+            openStarunia()
         }
     }
 
@@ -52,6 +58,10 @@ class MapsListActivity : AppCompatActivity() {
     private fun openKrylos() {
         val playKrylos = Intent(this, osbm.vasyliianski_animatory.povodyrchyk.Krylos.KrylosQuestActivity::class.java)
         startActivity(playKrylos)
+    }
+    private fun openStarunia(){
+        val playStarunia=Intent(this, osbm.vasyliianski_animatory.povodyrchyk.Starunia.StaruniaQuestActivity::class.java)
+        startActivity(playStarunia)
     }
 
 }
